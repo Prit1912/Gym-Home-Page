@@ -1,0 +1,95 @@
+
+
+.left{
+    position: absolute;
+    left: 104px;
+    top: 0px;
+    display: inline-block;
+    
+}
+
+.left img{
+    width: 230px;
+    height: 180px;
+}
+
+.left div{
+    text-align: center;
+    font-size: 25px;
+}
+
+.mid{
+    display: block;
+    width: 43%;
+    margin: 20px auto;
+    
+}
+
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+}
+
+.btn{
+    font-size: 20px;
+    width: 100px;
+    margin: 25px 10px auto;
+    padding: 5px;
+    border-radius: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn:hover{
+    background: rgb(177, 174, 174);
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    justify-items: center;
+    font-size: 23px;
+    display: inline-block;
+    padding: 20px;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li a:hover, .navbar li a.active{
+    color: grey;
+    text-decoration: none;
+}
+
+.container{
+    border: solid 2px white;
+    border-radius: 10px;
+    margin: 150px 03px;
+    padding: 20px 20px;
+    width: 25%;
+}
+.container h1{
+    text-align: center;
+}
+
+.form-grp input{
+    text-align: center;
+    display: block;
+    padding: 6px;
+    width: 300px;
+    margin: 15px auto;
+    border: solid 2px black;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.container button{
+    display: block;
+    margin: 0 auto;
+    border: solid 3px black;
+}

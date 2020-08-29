@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prit's Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('imgs/bg.jpg');
+}
+</style>
+<body>
+    <header class="header">
+        <!-- left box for logo --> 
+        <div class="left">
+            <img src="imgs/logo.png" alt="">
+            <div>Prit Fitness</div>
+        </div>
+        <!-- middle box for navigation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Tips</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+            <button class="btn">Call us</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the Gym</h1>
+        <form action="backend.php">
+            <div class="form-grp">
+                <input type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="form-grp">
+                <input type="text" placeholder="Enter Your Age">
+            </div>
+            <div class="form-grp">
+                <input type="text" placeholder="Enter Your Locality">
+            </div>
+            <div class="form-grp">
+                <input type="text" placeholder="Enter Your Contact_no.">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
